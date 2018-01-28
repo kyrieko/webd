@@ -1,0 +1,42 @@
+.book-container {
+  width:100%;
+  padding-top:30px;
+  padding-bottom:10px;
+}			
+h1 {
+  font-size:2em;	
+  font-weight:bold;
+  text-align:center;
+  margin:30px;
+}
+.cover-image {  
+  float:right;
+}
+.book-container .cover-image {
+  max-width:250px;
+}
+.book-container ul {
+  list-style:none;
+  margin-top:50px;
+}
+li {
+  font-size:1.0em;
+  margin:15px 0;
+  color:blue;
+}	
+.book-desc {
+  margin-top:40px;
+  padding-left:20px;
+  text-align:center;
+}
+p {
+  font-size:1.0em;
+}
+p.accent {
+  font-weight:bold;
+}
+#video-list .row {
+  height:70px;
+  padding:5px;
+  background-color:#eee;
+}

@@ -1,0 +1,16 @@
+* {
+	margin:0;
+	padding:0;
+}
+a, a:visited {
+	text-decoration:none;
+	margin:5px 15px;
+	color:white;
+}
+h1 {
+	margin-top:25%;
+	font-size:150px;
+	color:#eee;
+	text-shadow:2px 2px 5px black;
+	text-align:center;
+}

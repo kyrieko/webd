@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>	
+	<title>bean o`clock</title>	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="css/parallax.css" rel="stylesheet">
+</head>
+<body>
+	<div id="wrap">  
+		<div id="ms1" class="container" style='background-image:url("images/bg01.jpg")'>
+			<section class="content">			
+				<h3>It's bean o'clock</h3>
+				<p>더치커피와 원두커피 전문 쇼핑몰 빈어클락입니다.				
+					<div class='icon'><img src='images/icon_view.png'></div>
+				</p>
+			</section>
+		</div>
+		<div id="ms2" class="container" style='background-image:url("images/bg02.jpg")'>
+			<section class="content">
+				<h3>Cold brewed coffee</h3>
+				<p>	믿을 수 있는 고품질의 더치커피를 찾으신다면<br>
+				지금 바로 주문하세요!						
+					<div class='icon'><img src='images/icon_order.png'></div>
+				</p>
+			</section>
+		</div>
+		<div id="ms3" class="container " style='background-image:url("images/bg03.jpg")'>
+			<section class="content">
+				<h3>Roasted bean</h3>
+				<p> 주문 후 로스팅한 신선한 원두를<br>
+				만나보고 싶다면 지금 바로 주문하세요!
+					<div class='icon'><img src='images/icon_order.png'></div>
+				</p>
+			</section>
+		</div>
+	</div>
+
+	<script src="js/jquery-2.2.4.min.js"></script>
+	<script>
+		$(function() {
+			$('.icon img').hover(function() {
+				$(this).attr('src', $(this).attr('src').replace('.png', '_over.png'));				
+			}, function() {
+				$(this).attr('src', $(this).attr('src').replace('_over.png', '.png'));
+			});
+		});
+	</script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+  <!DOCTYPE html>
+  <html lang="ko">
+  <head>
+    <meta charset="UTF-8">
+    <title>CSS Grid Layout</title>
+    <style>
+     .wrapper{
+      display:grid;
+      grid-template-columns:repeat(3, 1fr);
+      /*grid-template-columns:1fr 1fr 1fr; */
+    }
+    .items{
+      padding:15px;
+      background-color:#eee;
+    }   
+    .items:nth-child(odd){
+      background-color:#bbb;
+    }
+    </style>
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="items">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta nesciunt magni voluptatem.</div>
+      <div class="items">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+      <div class="items">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius nulla corrupti porro!</div>
+      <div class="items">Lorem ipsum dolor sit.</div>
+      <div class="items">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, quos!</div>
+      <div class="items">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro odit quam sit.</div>
+    </div>
+  </body>
+  </html>

@@ -1,0 +1,9 @@
+* {
+	margin:0;
+	padding:0;
+}
+a, a:visited {
+	text-decoration:none;
+	margin:5px 15px;
+	color:white;
+}

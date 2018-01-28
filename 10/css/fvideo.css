@@ -1,0 +1,16 @@
+      @import url('https://fonts.googleapis.com/css?family=Lobster');
+
+			#container {
+				position:relative;
+				margin:250px auto;
+				width:80%;
+				height:auto;
+				padding:20px;
+				background:rgba(255,255,255,.4)							
+			}
+			h1{
+				font-family: 'Droid Sans', sans-serif;
+        font-size:5em;
+        font-weight:700;
+				text-shadow:2px 2px 5px white;
+			}

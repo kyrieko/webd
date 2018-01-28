@@ -1,0 +1,47 @@
+﻿<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>PASSION</title>
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+		<style>
+			.bg{
+				min-height:100%;
+				min-width:1024px;				
+				width:100%;
+				height:auto;				
+				position:fixed;
+				top:0;
+				left:0;
+			}					
+			@media screen and (max-width:1024px) {
+				.bg{
+						left:50%;
+						margin-left:-512px;
+				}
+			}	
+			#content {								
+				position:absolute;
+				top:50%;
+				left:50%;
+				transform: translate(-50%, -50%);
+			}
+			h1 {
+				color:white;
+				font-size:8em;				
+				font-style:italic;				
+				text-shadow:2px 2px 3px #222, 2px 2px 3px black;
+				text-transform: uppercase;
+			}
+		</style>
+		<!--[if lt IE 9]>
+		  <script src="js/html5shiv.min.js"></script>
+		<![endif]-->			
+	</head>
+	<body>
+    <img src="images/pink-hair.jpg" class="bg">
+		<div id="content">
+			<h1>Passion</h1>	
+		</div>		
+	</body>
+</html>

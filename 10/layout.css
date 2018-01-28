@@ -1,0 +1,89 @@
+﻿body{
+	font-family:"맑은 고딕", "고딕", "굴림";
+	background-color:gray;
+}
+#wrapper{
+	background-color:#fff;
+	width:960px;
+	margin:0 auto;
+}
+header {
+	width: 940px;
+	background-color: #069;
+	padding: 10px;
+	overflow: hidden;
+}
+header h1{
+	width:300px;
+	float:left;	
+	color:#ffffff;
+}
+
+header nav {
+	width:600px;
+	float:right;	
+}
+
+nav ul{
+	list-style-type:none;	
+}
+
+nav ul li{
+	display: inline;
+	float: left;
+	margin: 15px;
+}
+
+
+nav ul li a{
+	color:white;
+	text-decoration:none;	
+}
+p {
+	font-size:15px;
+	line-height:20px;
+}
+dt {
+	font-weight:bold;
+	color:purple;
+}
+
+h1{
+	font-size:2em;	
+}
+
+section{
+	width:940px;
+	border:5px solid #333;
+	padding:5px;
+	overflow:hidden;
+}
+article{
+	width:800px;
+	margin : 20px auto 10px auto;
+	padding:15px;	
+}
+article h3{
+	background-image:url(bg.png);
+	background-repeat:no-repeat;
+	background-position:left center;
+	padding-left:30px;
+}
+.pet{
+	border:1px solid black;
+	border-radius:10px;
+	-moz-border-radius:10px;
+}
+aside{
+	margin:20px 10px;
+	padding:15px;
+}
+footer{
+	clear:both;
+	width: 900px;
+	margin-top:0;
+	padding:10px;
+	background-color:#333;
+	color:white;	
+	text-align:center;
+}

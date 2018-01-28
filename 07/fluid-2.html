@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>가변 이미지</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1 maximum-scale=1">
+    <style>
+      body {
+        text-align:center;
+      }
+    </style>
+</head>
+<body>
+  <picture>
+    <source srcset="lime-1000.jpg" media="(min-width:1024px)">
+    <source srcset="lime-740.jpg" media="(min-width:768px)">
+    <source srcset="lime-300.jpg" media="(min-width:320px)">
+    <img src="lime.jpg" alt="lime" style="max-width:100%">
+  </picture>  
+</body>
+</html>

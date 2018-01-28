@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Courgette');
+
+#content {
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+}
+h1 {
+  color:#aff500;
+  font-family: 'Courgette', cursive;
+  font-size:7em;				
+  font-style:italic;				
+  text-shadow:2px 2px 3px #222, 2px 2px 3px black;
+}

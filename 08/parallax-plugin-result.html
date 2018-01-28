@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>	
+	<title>bean o`clock</title>	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="css/parallax-result.css" rel="stylesheet">
+</head>
+<body>
+	<div id="wrap">  
+    <nav id="navi">
+      <h1><a href="http://www.beanoclock.com"><img src="images/logo.jpg"></a></h1>
+      <ul class="main-nav">			
+        <li><a href="#ms1" class="scroll">Link 1</a></li>
+        <li><a href="#ms2" class="scroll">Link 2</a></li>
+        <li><a href="#ms3" class="scroll">Link 3</a></li>
+      </ul>
+    </nav>    
+		<div id="ms1" class="container bg-holder" data-width="1200" data-height="600">
+			<section class="content">			
+				<h3>It's bean o'clock</h3>
+				<p>더치커피와 원두커피 전문 쇼핑몰 빈어클락입니다.				
+					<div class='icon'><img src='images/icon_view.png'></div>
+				</p>
+			</section>
+		</div>
+		<div id="ms2" class="container bg-holder" data-width="1200" data-height="600">
+			<section class="content">
+				<h3>Cold brewed coffee</h3>
+				<p>	믿을 수 있는 고품질의 더치커피를 찾으신다면<br>
+				지금 바로 주문하세요!						
+					<div class='icon'><img src='images/icon_order.png'></div>
+				</p>
+			</section>
+		</div>
+		<div id="ms3" class="container bg-holder" data-width="1200" data-height="730">
+			<section class="content">
+				<h3>Roasted bean</h3>
+				<p> 주문 후 로스팅한 신선한 원두를<br>
+				만나 보고 싶다면 지금 바로 주문하세요!
+					<div class='icon'><img src='images/icon_order.png'></div>
+				</p>
+			</section>
+		</div>
+	</div>
+
+  <script src="js/jquery-2.2.4.min.js"></script>
+  <script src="js/jquery.parallax-scroll.min.js"></script>
+	<script>
+		$(function() {
+      $('.scroll').click(function(e) {
+				e.preventDefault();
+				$('html, body').animate({scrollTop:$(this.hash).offset().top}, 500);
+			});
+      
+      $(window).resize(function(){
+        $('.container').width($(window).width()).height($(window).height());
+        $('.content').each(function(){
+          $(this).css('margin-left',($(this).width()/2 * -1) + 'px').css('margin-top',($(this).height()/2 * -1) + 'px');
+        });
+      });
+
+      setTimeout(function(){
+        $(window).resize()}, 1000);      
+
+      $('.bg-holder').parallaxScroll({
+        friction:0.3
+      });
+
+			$('.icon img').hover(function() {
+				$(this).attr('src', $(this).attr('src').replace('.png', '_over.png'));				
+			}, function() {
+				$(this).attr('src', $(this).attr('src').replace('_over.png', '.png'));
+			});      
+		});
+	</script>
+</body>
+</html>

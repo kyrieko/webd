@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>플렉서블 박스 레이아웃</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1 maximum-scale=1">
+    <style>
+      .container {
+        width:100%;
+        height:150px;
+        display:flex;
+        background-color:#eee;
+        border:1px solid #222;
+        margin-bottom:20px;
+      }
+      .opt1{
+        align-items: flex-start;    
+      }
+      .opt2{
+        align-items: flex-end;         
+      }
+      .opt3{
+        align-items: center;       
+      }
+      .opt4{
+        align-items: stretch;      
+      }                            
+      .box {
+        padding:5px 45px;
+        margin:5px;   
+        background-color:#222;   
+      }
+      p {
+        color:#fff;
+        text-align: center;
+      }
+    </style>
+</head>
+<body>
+  <div class="container opt1">
+    <div class="box"><p>1</p></div>
+    <div class="box"><p>2</p></div>
+    <div class="box"><p>3</p></div>
+    <div class="box"><p>4</p></div>
+  </div>
+  <div class="container opt2">
+    <div class="box"><p>1</p></div>
+    <div class="box"><p>2</p></div>
+    <div class="box"><p>3</p></div>
+    <div class="box"><p>4</p></div>
+  </div>
+  <div class="container opt3">
+    <div class="box"><p>1</p></div>
+    <div class="box"><p>2</p></div>
+    <div class="box"><p>3</p></div>
+    <div class="box"><p>4</p></div>
+   </div>
+  <div class="container opt4">
+    <div class="box"><p>1</p></div>
+    <div class="box"><p>2</p></div>
+    <div class="box"><p>3</p></div>
+    <div class="box"><p>4</p></div>
+  </div>            
+</body>
+</html>

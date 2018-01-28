@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="ko">
+	<head>
+		<meta charset="utf-8">
+    <title>SVG Image</title>			
+  </head>
+	<body>
+    <h1>SVG 이미지 삽입하기</h1>
+    <img src="images/air-balloon.svg" width="400" height="400">
+
+    <script src="js/modernizr-custom.js"></script>
+    <script>
+      // Check if browser can handle SVG
+        if(!Modernizr.svg){
+        // Get all img tag of the document and create variables
+          var i=document.getElementsByTagName("img"),j,y;
+
+          // For each img tag
+          for(j = i.length ; j-- ; ){
+            y = i[j].src
+            // If filenames ends with SVG
+            if( y.match(/svg$/) ){
+              // Replace "svg" by "png"
+              i[j].src = y.slice(0,-3) + 'png'
+            }
+          }
+        }
+    </script>
+  </body>
+</html>

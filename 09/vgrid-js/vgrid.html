@@ -1,0 +1,93 @@
+﻿<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-wdidth; init-scale=1.0; user-scaclable=no">
+		<title>vGrid 플러그인</title>
+		<style>
+			* {
+				margin:0;
+				padding:0;
+      }
+			#container div {
+				width:200px;
+				background:#fff;
+				box-shadow: 0px 1px 1px #aaa;
+				padding:15px;
+				padding-bottom:15px;
+				margin:15px;				
+			}		
+			#container div img {
+				width:100%;
+				padding-bottom:15px;
+				margin-bottom:5px;
+			}
+			#container div h2 {
+				font-size:1em;
+				color:#0d2dff;
+			}
+			#container div p {
+				font-family:"맑은 고딕", 돋움;
+				font-size:0.8em;
+				color:#222;
+				margin:0;
+				padding:10px;
+			}			
+		</style>		
+	</head>
+	<body>
+		<div id="container">
+				<div>
+					<img src="images/tr1.jpg">
+					<h2>발리 - 따나롯 해상 사원</h2>			
+					<p>만조 때는 바닷물이 밀려들어 사원과 육지가 떨어지고 썰물이 되면 다시 육지와 연결된다.  </p>
+				</div>
+				<div>
+					<img src="images/tr2.jpg">
+					<h2>남원 - 홍명희 혼불 문학관</h2>			
+					<p>홍명희가 만 17년간 집필한  '혼불'에 대한 모든 것이 모여있는 곳. </p>
+				</div>
+				<div>
+					<img src="images/tr3.jpg">
+					<h2>고창 - 도솔산 선운사</h2>					
+					<p>정유재란 때 피해를 입었으나 광해군 때 재건하여 지금까지 보존해 오는 절.</p>
+				</div>
+				<div>
+					<img src="images/tr4.jpg">
+					<h2>발리 - 울룬다누 사원</h2>				
+					<p>브라딴 호수 위의 사원. 강과 호수를 관장하는 물의 여신 '데위 다뉘'를 위해 지어진 사원이라네요. </p>
+				</div>	
+				<div>
+					<img src="images/tr1.jpg">
+					<h2>발리 - 따나롯 해상 사원</h2>			
+					<p>만조 때는 바닷물이 밀려들어 사원과 육지가 떨어지고 썰물이 되면 다시 육지와 연결된다.  </p>
+				</div>
+				<div>
+					<img src="images/tr2.jpg">
+					<h2>남원 - 홍명희 혼불 문학관</h2>			
+					<p>홍명희가 만 17년간 집필한  '혼불'에 대한 모든 것이 모여있는 곳. </p>
+				</div>
+				<div>
+					<img src="images/tr3.jpg">
+					<h2>고창 - 도솔산 선운사</h2>					
+					<p>정유재란 때 피해를 입었으나 광해군 때 재건하여 지금까
+					지 보존해 오는 절.</p>
+				</div>
+				<div>
+					<img src="images/tr4.jpg">
+					<h2>발리 - 울룬다누 사원</h2>				
+					<p>브라딴 호수 위의 사원. 강과 호수를 관장하는 물의 여신 '데위 다뉘'를 위해 지어진 사원이라네요. </p>
+				</div>	
+		</div>	
+
+		<script src="js/jquery-2.1.3.min.js"></script>		
+		<script src="js/jquery.vgrid.min.js"></script>	
+		<script>
+			$("#container").vgrid({
+				time:400,
+				delay:30,
+				wait:500
+			});		
+		</script>
+	</body>
+</html>

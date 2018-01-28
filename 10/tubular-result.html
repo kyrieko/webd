@@ -1,0 +1,29 @@
+﻿<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Tubular 플러그인 연습</title>	
+	<link href="css/tb.css" rel="stylesheet">
+</head>
+<body>
+	<div id="wrapper">
+    <a href="#" class="tubular-play">재생</a> 
+    <a href="#" class="tubular-pause">일시정지</a> 
+    <a href="#" class="tubular-volume-up">소리 키우기</a> 
+    <a href="#" class="tubular-volume-down">소리 줄이기</a>  
+    <a href="#" class="tubular-mute">소리 끄기</a></p>
+  </div>
+	<script src="js/jquery-2.2.4.min.js"></script>
+	<script src="js/jquery.tubular.1.0.js"></script>
+	<script>
+		$("document").ready(function() {
+			var options = {
+				videoId : 'FAyKQn34ccA',
+				start:8
+			};
+			
+			$('#wrapper').tubular(options);
+		});
+	</script>	
+</body>
+</html>

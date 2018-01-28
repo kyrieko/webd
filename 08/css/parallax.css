@@ -1,0 +1,61 @@
+﻿
+/* default */
+*, html {
+	margin:0;
+	padding:0;
+}
+h3, p {
+	font-family: "맑은 고딕", 돋움, 굴림;
+}
+.container {
+	position:relative;	
+	cursor:pointer;
+	min-height:730px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size:cover;
+	overflow:hidden;
+	margin:0;
+}
+#ms1{
+  background-image:url("../images/bg01.jpg");
+}
+#ms2{
+  background-image:url("../images/bg02.jpg");
+}
+#ms3{
+  background-image:url("../images/bg03.jpg");
+}
+.container .content {
+  color: #fff;
+  text-align: center;
+  position: absolute;
+  left:50%;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.content h3{
+	font-family:'Nexa Bold';
+	color:#e9592c;
+	font-size:65px;
+	text-align:center;
+}
+.content p{
+	margin-top:12px;
+	padding-left:5px;
+	padding-right:5px;
+	line-height:32px;
+	font-size:24px;
+	text-align:center;
+	color:#fff;
+}
+.icon{
+	text-align:center;
+	margin-top:10px;
+	height:118px;
+	margin:0 auto; 
+}
