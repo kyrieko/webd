@@ -211,6 +211,7 @@ section:nth-child(odd) {
 .sns a:last-child {
   margin-right:0;
 }
+
 @media screen and (min-width:764px) {
   .footer-info {
     max-width:1300px;

@@ -1,16 +1,14 @@
 ﻿<!-- 헤더 -->
 
-<div class="container align-center">
-  <h1><strong>Display your web design</strong><br>in a web browser</h1>
+<h1><strong>Display your web design</strong><br>in a web browser</h1>
   <h4 class="silver hidden-xs">Fastest way to present your design and get feedback from your clients!</h4>
         
   Upload Project
         
-  <div class="silver small-info margin-top-big hidden-xs"></div>          
+  <div class="silver small-info margin-top-big"></div>          
     <img src="images/drop-icon.png">
     Drop here or select your project<br>prepared in the PNG or JPG format
   </div>
-</div>
 
 
 

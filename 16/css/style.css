@@ -530,7 +530,7 @@ input {
 }
 /*Footer*/
 
-footer {
+.footer {
     background-color: #0d121b;
     text-align: center;
     padding-top: 30px;
