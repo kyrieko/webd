@@ -11,4 +11,4 @@
 1. 파일 목록 오른쪽 위에 있는 [Colone or download]를 클릭합니다.
 2. [Download ZIP]을 클릭합니다.
 3. 다운로드한 파일(webd-master.zip)의 압축을 풉니다.
-![git_fork] (./img/git-download.png)
+![git_download] (./img/git-download.png)
