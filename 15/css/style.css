@@ -128,7 +128,8 @@ section:nth-child(odd) {
   padding:20px 50px;
 }
 .text {
-  padding-left:50px;
+	padding-left:50px;
+	padding-right:50px;
 }
 .text h3 {
   font-size:1.6em;
@@ -139,6 +140,7 @@ section:nth-child(odd) {
   line-height: 1.8;
 }
 .img {
+	text-align:center;
   display:none;
 }
 
