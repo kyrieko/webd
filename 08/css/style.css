@@ -35,8 +35,6 @@ p {
 p.accent {
   font-weight:bold;
 }
-#video-list .row {
-  height:70px;
-  padding:5px;
+.slide {
   background-color:#eee;
 }
