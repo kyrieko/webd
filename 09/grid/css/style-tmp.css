@@ -17,18 +17,18 @@ h1 {
 	margin:50px auto;
 }
 #columns {
-	-webkit-column-count:2;
-	-webkit-column-gap:10px;
-	-moz-column-count:2;
-	-moz-column-gap:10px;
 	column-count:2;
-	column-gap:10px;	
+	-webkit-column-count:2;
+	-moz-column-count:2;
+	column-gap:10px;
+	-webkit-column-gap:10px;
+	-moz-column-gap:10px;
 }
 .card {
 	display:inline-block;
-	width:250px;
+	width:200px;
 	background:#fff;
-	box-shadow:0px 1px 1px #ccc;
+	box-shadow: 0px 1px 1px #ccc;
 	padding:15px;
 	padding-bottom:15px;
 	margin:10px;
@@ -39,26 +39,25 @@ h1 {
 	padding-bottom:15px;
 	margin-bottom:5px;
 }
-
 .card p {
-	font-family:"맑은 고딕", 돋움;
+	font-family : "맑은 고딕", 돋움;
 	color:#333;
 	margin:0;
 	padding:10px;
 }
-	
-@media(min-width:960px){
-	#columns{
+
+@media(min-width:960px) {
+	#columns {
+		column-count:3;
 		-webkit-column-count:3;
 		-moz-column-count:3;
-		column-count:3;
-	}
+	}	
 }
 
 @media(min-width:1100px) {
-	#columns{
+	#columns {
+		column-count:4;
 		-webkit-column-count:4;
 		-moz-column-count:4;
-		column-count:4;
-	}
+	}	
 }
